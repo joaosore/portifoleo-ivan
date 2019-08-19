@@ -1,0 +1,24 @@
+header {
+	overflow: hidden;
+	.col-custon {
+		padding-right: 50px !important;
+		padding-top: 25px;
+		&.back-mobile {
+			height: 50px;
+			align-items: center;
+			@media only screen and (max-width: 991px) {
+				display: flex !important;
+			}
+			p {
+			    margin: 0;
+			}
+		}
+		@media only screen and (max-width: 991px) {
+			padding: 0 15px;
+		}
+		.seta-next {
+			cursor: pointer;
+			width: 27px;
+		}
+	}
+}
